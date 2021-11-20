@@ -1,0 +1,43 @@
+body{
+    background:linear-gradient(rgba(37, 37, 37, 0.705),rgb(20, 20, 16));
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:97.5vh;
+}
+#container{
+    color:rgb(255, 255, 255);
+}
+.digit{
+    font-size:160px;
+    font-weight:bold;
+}
+.txt{
+    font-size:130px;
+    font-weight:bold;
+    position:relative;
+    bottom:10px;
+}
+#btn-container{
+    text-align:center;
+    margin-top:40px;
+}
+.btn{
+    padding:10px 40px;
+    font-size:25px;
+    margin:0px 10px;
+    color:white;
+    border:0px;
+    cursor: pointer;
+    font-weight:700;
+}
+#start{
+    background:linear-gradient(rgb(100, 255, 100),green);
+}
+#stop{
+    background:linear-gradient(rgb(27, 221, 255),rgb(14, 78, 255));
+}
+#reset{
+    background:linear-gradient(rgb(255, 131, 82),rgb(245, 0, 0));
+}
